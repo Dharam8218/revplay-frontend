@@ -16,7 +16,7 @@ export class LoginComponent {
   loginForm;
 
   constructor(
-    private fb: FormBuilder,
+    private fb: FormBuilder, 
     private authService: AuthService,
     private router: Router
   ) {
